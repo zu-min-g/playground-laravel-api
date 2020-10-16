@@ -15,10 +15,6 @@
             const ui = SwaggerUI({
                 url: "/api/v1/open-api",
                 dom_id: '#swagger-ui',
-                presets: [
-                    SwaggerUI.presets.apis,
-                    SwaggerUI.SwaggerUIStandalonePreset
-                ]
             })
         </script>
     </body>
